@@ -1,0 +1,38 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #15212D, #082e36); /* Gradien latar belakang */
+}
+
+.about-card {
+    margin: 5rem auto;
+    width: 100%;
+    max-width: 800px; /* Ubah dari 450px menjadi 600px untuk memperlebar */
+    padding: 2rem;
+    background-color: #15212D;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 20px rgba(6, 182, 212, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    color: white;
+}
+
+
+.about-card:hover {
+    box-shadow: 0 4px 20px rgba(6, 182, 212, 0.6); /* Efek hover */
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #06b6d4; /* Warna biru terang */
+}
+
+.about-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: white; /* Warna teks putih */
+}

@@ -1,0 +1,97 @@
+.manage-users-container {
+    margin: 5rem auto;
+    width: 90%;
+    max-width: 900px;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #15212D, #082e36);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 20px rgba(6, 182, 212, 0.1);
+    color: white;
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #171E28;
+    color: white;
+    font-size: 1rem;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #444;
+    padding: 1rem;
+    text-align: center;
+}
+
+.user-table thead {
+    background: #105C6E;
+    color: white;
+}
+
+.user-table tbody tr:hover {
+    background: rgba(6, 182, 212, 0.2);
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background-color: #105C6E;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #06b6d4;
+}
+
+.delete-btn {
+    background-color: #d00000;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #ff4d4d;
+}
+
+.save-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.save-btn:hover {
+    background-color: #218838;
+}
+
+.cancel-btn {
+    background-color: #555;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #777;
+}

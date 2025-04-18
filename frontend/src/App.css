@@ -1,0 +1,47 @@
+/* src/App.css */
+/* Ganti background seluruh halaman */
+body, html {
+  background-color: rgb(31, 41, 55); /* Gunakan nilai RGB tanpa variabel */
+  height: 100%;
+  margin: 0;
+  align-items: flex-start; /* Flex untuk positioning jika diperlukan */
+}
+
+
+.page-content {
+  padding: 20px;
+}
+
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.sidebar {
+  background-color: #374151; /* Warna sidebar */
+  color: white;
+  width: 250px;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.sidebar a:hover {
+  background-color: #4B5563;
+}
+
+
